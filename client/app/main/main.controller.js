@@ -16,5 +16,5 @@ class MainController {
 
 angular.module('sampleProjectApp')
   .controller('MainController', MainController);
-
+console.log("hello");
 })();

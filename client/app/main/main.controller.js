@@ -9,6 +9,7 @@ class MainController {
     this.awesomeThings = [];
 
     $http.get('/api/things').then(response => {
+		console.log("Welcome to mainCtrl");
       this.awesomeThings = response.data;
     });
   }
